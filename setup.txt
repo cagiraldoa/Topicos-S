@@ -43,15 +43,12 @@ exit
 ------
 
 
-Debemos instalar todas las dependencias composer, npm y bootstrap
+Debemos instalar todas las dependencias composer y generar la key
 
 
 -----------------------------
 composer install
-composer require laravel/ui
-php artisan ui bootstrap
-npm install
-npm run dev
+php artisan key:generate
 ----------------------------
 
 
