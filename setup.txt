@@ -43,6 +43,17 @@ exit
 ------
 
 
+Debemos instalar todas las dependencias composer, npm y bootstrap
+
+
+-----------------------------
+composer install
+composer require laravel/ui
+php artisan ui bootstrap
+npm install
+npm run dev
+----------------------------
+
 
 Estando aqui generaremos las migraciones para la base de datos creada con
 
