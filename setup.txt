@@ -1,0 +1,66 @@
+Taller 1 Cristian Giraldo  |
+----------------------------
+
+
+En el ZIP que encontró este archivo se encuentra la carpeta
+taller1, alli se encuentra localizado el proyecto laravel, usando 
+su editor de codigo, o la terminal en ese directorio usted procedera 
+a hacer lo siguiente:
+
+Inicialmente revise que su archivo .env en el apartado de lo relacionado
+a la base de datos contenga lo siguiente
+
+------------------------------
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=taller1cristian
+DB_USERNAME=root
+DB_PASSWORD=
+-------------------------------
+
+
+Ahora lo que haremos es crear la base de datos en su maquina con el siguiente comando
+
+--------------
+mysql -u root
+-------------
+
+
+Esto lo llevara a un entorno de mysql y estando ahí utiliza el siguiente comando
+
+
+----------------------------------
+create database taller1cristian;
+----------------------------------
+
+
+Finalmente para volver al entorno normal de la consola usamos 
+
+
+-------
+exit
+------
+
+
+
+Estando aqui generaremos las migraciones para la base de datos creada con
+
+--------------------------
+php artisan migrate:fresh
+--------------------------
+
+
+Y ahora para iniciar el proyecto
+
+
+------------------
+php artisan serve
+------------------
+
+
+
+Dirigete al enlace generado y disfruta
+
+
+Bye.
