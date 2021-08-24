@@ -10,6 +10,10 @@ a hacer lo siguiente:
 Inicialmente revise que su archivo .env en el apartado de lo relacionado
 a la base de datos contenga lo siguiente
 
+---------------------
+cp .env.example .env
+---------------------
+
 ------------------------------
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
